@@ -7,17 +7,34 @@
 //
 
 #import "AppDelegate.h"
+#import "CameraViewController.h"
+#import "OpenShareHeader.h"
+#import <Bugly/Bugly.h>
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) UINavigationController *navigationController;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    CameraViewController *vc = [[CameraViewController alloc] init];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [self setupShare];
+    });
     return YES;
+}
+
+- (void)setupShare {
+    [OpenShare connectQQWithAppId:@""];
+    [OpenShare connectWeixinWithAppId:@""];
 }
 
 
