@@ -1,0 +1,18 @@
+PODS:
+  - Bugly (2.4.7)
+  - GPUImage (0.1.7)
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - Bugly
+  - GPUImage (~> 0.1.7)
+  - pop
+
+SPEC CHECKSUMS:
+  Bugly: 2c256069145f550171907c5cb1c0f84ad291f6c1
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+PODFILE CHECKSUM: 31df3890154d840d65cd90f9959f3ef341431520
+
+COCOAPODS: 1.1.0.beta.2
