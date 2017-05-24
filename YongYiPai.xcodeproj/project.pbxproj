@@ -1240,6 +1240,7 @@
 				DEVELOPMENT_TEAM = 6JC78V6G2N;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YongYiPai/YongYiPai-Prefix.pch";
 				INFOPLIST_FILE = YongYiPai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YongYiPai.YongYiPai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1254,6 +1255,7 @@
 				DEVELOPMENT_TEAM = 6JC78V6G2N;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YongYiPai/YongYiPai-Prefix.pch";
 				INFOPLIST_FILE = YongYiPai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YongYiPai.YongYiPai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
