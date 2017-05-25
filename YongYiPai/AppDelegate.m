@@ -33,7 +33,7 @@
 }
 
 - (void)setupShare {
-    [OpenShare connectQQWithAppId:@"1105277654"];
+    [OpenShare connectQQWithAppId:@"1106110375"];
     [OpenShare connectWeixinWithAppId:@"wx88234dc1246eb81b"];
 }
 

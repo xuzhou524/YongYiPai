@@ -101,7 +101,7 @@ typedef enum { kWechatSession = 0, kWechatTimeline, kQZone, kQQ } SharePlatformT
     SharePlatformType type = (SharePlatformType)[shareDict[@"type"] integerValue];
     
     OSMessage *msg = [[OSMessage alloc] init];
-    msg.title = @"Osho 相机";
+    msg.title = @"OnePai";
     msg.image = self.photo;
     msg.thumbnail = [self.photo scaleImageToSize:CGSizeMake(60,60)];
     msg.desc = @"";
