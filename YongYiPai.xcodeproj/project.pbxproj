@@ -988,7 +988,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YongYiPai/Pods-YongYiPai-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YongYiPai/Pods-YongYiPai-resources.sh\"\n\"${PODS_ROOT}/Fabric/run\" e5a51bcb1d2c3bfc5e7b43c7a3a9cd6cffe7f0b8 eb38756f0e57b9048d3c1e112eb0d53f92817a9149c333ab5b6f3c59ff6bc9d7";
 			showEnvVarsInLog = 0;
 		};
 		528B9D53EBC8FF1614BE7122 /* [CP] Embed Pods Frameworks */ = {
