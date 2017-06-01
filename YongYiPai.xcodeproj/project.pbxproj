@@ -7,17 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		533D97251ECEC09500DDC785 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D97241ECEC09500DDC785 /* libz.tbd */; };
-		533D97271ECEC0A100DDC785 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D97261ECEC0A100DDC785 /* CoreTelephony.framework */; };
-		533D97291ECEC20100DDC785 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D97281ECEC20100DDC785 /* QuartzCore.framework */; };
-		533D972B1ECEC20F00DDC785 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D972A1ECEC20F00DDC785 /* libGPUImage.a */; };
-		533D972D1ECEC22800DDC785 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D972C1ECEC22800DDC785 /* AVFoundation.framework */; };
-		533D972F1ECEC23400DDC785 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D972E1ECEC23400DDC785 /* OpenGLES.framework */; };
-		533D97311ECEC24000DDC785 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D97301ECEC24000DDC785 /* CoreVideo.framework */; };
-		533D97331ECEC24D00DDC785 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D97321ECEC24D00DDC785 /* CoreMedia.framework */; };
-		533D97351ECEC25700DDC785 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D97341ECEC25700DDC785 /* CoreGraphics.framework */; };
-		533D97371ECEC26000DDC785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D97361ECEC26000DDC785 /* UIKit.framework */; };
-		533D97391ECEC26B00DDC785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533D97381ECEC26B00DDC785 /* Foundation.framework */; };
 		533D97501ECEC58500DDC785 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D97451ECEC58500DDC785 /* DismissingAnimator.m */; };
 		533D97511ECEC58500DDC785 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D97471ECEC58500DDC785 /* PresentingAnimator.m */; };
 		533D97521ECEC58500DDC785 /* FocusBoxLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D974A1ECEC58500DDC785 /* FocusBoxLayer.m */; };
@@ -145,7 +134,6 @@
 		537C6C0D1ECEC024004AD822 /* xproMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 537C6BE31ECEC024004AD822 /* xproMap.png */; };
 		537C6C111ECEC045004AD822 /* Osho.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 537C6C101ECEC045004AD822 /* Osho.bundle */; };
 		537C6C131ECEC04E004AD822 /* FilterThum.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 537C6C121ECEC04E004AD822 /* FilterThum.bundle */; };
-		537C6C151ECEC06A004AD822 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 537C6C141ECEC06A004AD822 /* libsqlite3.tbd */; };
 		6229CADC0C9C99904F6ABC76 /* libPods-YongYiPai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D442FD43DDFF6C7E01001 /* libPods-YongYiPai.a */; };
 /* End PBXBuildFile section */
 
@@ -393,18 +381,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533D97391ECEC26B00DDC785 /* Foundation.framework in Frameworks */,
-				533D97371ECEC26000DDC785 /* UIKit.framework in Frameworks */,
-				533D97351ECEC25700DDC785 /* CoreGraphics.framework in Frameworks */,
-				533D97331ECEC24D00DDC785 /* CoreMedia.framework in Frameworks */,
-				533D97311ECEC24000DDC785 /* CoreVideo.framework in Frameworks */,
-				533D972F1ECEC23400DDC785 /* OpenGLES.framework in Frameworks */,
-				533D972D1ECEC22800DDC785 /* AVFoundation.framework in Frameworks */,
-				533D972B1ECEC20F00DDC785 /* libGPUImage.a in Frameworks */,
-				533D97291ECEC20100DDC785 /* QuartzCore.framework in Frameworks */,
-				533D97271ECEC0A100DDC785 /* CoreTelephony.framework in Frameworks */,
-				533D97251ECEC09500DDC785 /* libz.tbd in Frameworks */,
-				537C6C151ECEC06A004AD822 /* libsqlite3.tbd in Frameworks */,
 				6229CADC0C9C99904F6ABC76 /* libPods-YongYiPai.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
