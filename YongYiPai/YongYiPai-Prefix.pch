@@ -15,6 +15,9 @@
 #import "UIView+frameAdjust.h"
 #import "extobjc.h"
 #import "ZPKit.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 
 #define ScreenBounds [UIScreen mainScreen].bounds
 #define ScreenHeight ScreenBounds.size.height

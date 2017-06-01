@@ -1,18 +1,25 @@
 PODS:
   - Bugly (2.4.7)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
   - GPUImage (0.1.7)
   - pop (1.0.9)
 
 DEPENDENCIES:
   - Bugly
+  - Crashlytics
+  - Fabric
   - GPUImage (~> 0.1.7)
   - pop
 
 SPEC CHECKSUMS:
   Bugly: 2c256069145f550171907c5cb1c0f84ad291f6c1
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
 
-PODFILE CHECKSUM: 31df3890154d840d65cd90f9959f3ef341431520
+PODFILE CHECKSUM: a7a594a9b40e9f0f4ae4fb50cb116f57b27be533
 
 COCOAPODS: 1.1.0.beta.2
