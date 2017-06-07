@@ -12,6 +12,7 @@
 		533D97521ECEC58500DDC785 /* FocusBoxLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D974A1ECEC58500DDC785 /* FocusBoxLayer.m */; };
 		533D97531ECEC58500DDC785 /* BallRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D974D1ECEC58500DDC785 /* BallRotate.m */; };
 		533D97541ECEC58500DDC785 /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D974F1ECEC58500DDC785 /* IndicatorView.m */; };
+		53640B091EE7DD530098EF8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53640B071EE7DD530098EF8E /* Main.storyboard */; };
 		537C6AA81ECEBB59004AD822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AA71ECEBB59004AD822 /* main.m */; };
 		537C6AAB1ECEBB59004AD822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AAA1ECEBB59004AD822 /* AppDelegate.m */; };
 		537C6AB31ECEBB59004AD822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537C6AB21ECEBB59004AD822 /* Assets.xcassets */; };
@@ -159,6 +160,7 @@
 		533D974E1ECEC58500DDC785 /* IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
 		533D974F1ECEC58500DDC785 /* IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
 		533D97571ECEC71700DDC785 /* YongYiPai-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YongYiPai-Prefix.pch"; sourceTree = "<group>"; };
+		53640B081EE7DD530098EF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		537C6AA31ECEBB59004AD822 /* YongYiPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YongYiPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537C6AA71ECEBB59004AD822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		537C6AA91ECEBB59004AD822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -471,6 +473,7 @@
 		537C6AA51ECEBB59004AD822 /* YongYiPai */ = {
 			isa = PBXGroup;
 			children = (
+				53640B071EE7DD530098EF8E /* Main.storyboard */,
 				537C6AA91ECEBB59004AD822 /* AppDelegate.h */,
 				537C6AAA1ECEBB59004AD822 /* AppDelegate.m */,
 				533D97571ECEC71700DDC785 /* YongYiPai-Prefix.pch */,
@@ -923,6 +926,7 @@
 				537C6BFD1ECEC024004AD822 /* riseMap.png in Resources */,
 				537C6BED1ECEC024004AD822 /* earlybirdBlowout.png in Resources */,
 				537C6BF41ECEC024004AD822 /* hefeMetal.png in Resources */,
+				53640B091EE7DD530098EF8E /* Main.storyboard in Resources */,
 				537C6C0D1ECEC024004AD822 /* xproMap.png in Resources */,
 				537C6C051ECEC024004AD822 /* toasterCurves.png in Resources */,
 				537C6BE51ECEC024004AD822 /* 1977map.png in Resources */,
@@ -1097,6 +1101,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		53640B071EE7DD530098EF8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53640B081EE7DD530098EF8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		537C6AB41ECEBB59004AD822 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1203,6 +1215,7 @@
 			baseConfigurationReference = AF8A74EB64F06B5010D56FD3 /* Pods-YongYiPai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 6JC78V6G2N;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YongYiPai/YongYiPai-Prefix.pch";
 				INFOPLIST_FILE = YongYiPai/Info.plist;
@@ -1218,6 +1231,7 @@
 			baseConfigurationReference = C1FB850E018561FCA4558114 /* Pods-YongYiPai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 6JC78V6G2N;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YongYiPai/YongYiPai-Prefix.pch";
 				INFOPLIST_FILE = YongYiPai/Info.plist;

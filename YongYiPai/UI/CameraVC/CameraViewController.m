@@ -41,6 +41,7 @@
 #pragma mark - View Life Circle
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [NSThread sleepForTimeInterval:1.0f];//时间可灵活修改
     [self.view setBackgroundColor:[UIColor whiteColor]];
     self.lastTimeArray = [NSMutableArray array];
     self.lineViewArray = [NSMutableArray array];

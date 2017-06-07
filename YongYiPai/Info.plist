@@ -75,10 +75,8 @@
 	<string>需要允许开启麦克风才能拍摄短视频</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>需要允许打开相册才能保存照片和短视频</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>LaunchScreen</string>
+	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
