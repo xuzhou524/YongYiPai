@@ -16,7 +16,6 @@
 		537C6AA81ECEBB59004AD822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AA71ECEBB59004AD822 /* main.m */; };
 		537C6AAB1ECEBB59004AD822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AAA1ECEBB59004AD822 /* AppDelegate.m */; };
 		537C6AB31ECEBB59004AD822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537C6AB21ECEBB59004AD822 /* Assets.xcassets */; };
-		537C6AB61ECEBB59004AD822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537C6AB41ECEBB59004AD822 /* LaunchScreen.storyboard */; };
 		537C6B5B1ECEBF9F004AD822 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AC61ECEBF9F004AD822 /* EXTADT.m */; };
 		537C6B5C1ECEBF9F004AD822 /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AC81ECEBF9F004AD822 /* EXTConcreteProtocol.m */; };
 		537C6B5D1ECEBF9F004AD822 /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6ACC1ECEBF9F004AD822 /* EXTNil.m */; };
@@ -166,7 +165,6 @@
 		537C6AA91ECEBB59004AD822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		537C6AAA1ECEBB59004AD822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		537C6AB21ECEBB59004AD822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		537C6AB51ECEBB59004AD822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		537C6AB71ECEBB59004AD822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		537C6AC51ECEBF9F004AD822 /* EXTADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTADT.h; sourceTree = "<group>"; };
 		537C6AC61ECEBF9F004AD822 /* EXTADT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTADT.m; sourceTree = "<group>"; };
@@ -473,13 +471,12 @@
 		537C6AA51ECEBB59004AD822 /* YongYiPai */ = {
 			isa = PBXGroup;
 			children = (
-				53640B071EE7DD530098EF8E /* Main.storyboard */,
 				537C6AA91ECEBB59004AD822 /* AppDelegate.h */,
 				537C6AAA1ECEBB59004AD822 /* AppDelegate.m */,
 				533D97571ECEC71700DDC785 /* YongYiPai-Prefix.pch */,
 				537C6AB21ECEBB59004AD822 /* Assets.xcassets */,
-				537C6AB41ECEBB59004AD822 /* LaunchScreen.storyboard */,
 				537C6AB71ECEBB59004AD822 /* Info.plist */,
+				53640B071EE7DD530098EF8E /* Main.storyboard */,
 				532E5E471EE7D5F0009F5AAB /* Library */,
 				533D97411ECEC58500DDC785 /* Model */,
 				537C6B9C1ECEBFA4004AD822 /* UI */,
@@ -915,7 +912,6 @@
 				537C6BE91ECEC024004AD822 /* brannanContrast.png in Resources */,
 				537C6BEA1ECEC024004AD822 /* brannanLuma.png in Resources */,
 				537C6BFF1ECEC024004AD822 /* sierraVignette.png in Resources */,
-				537C6AB61ECEBB59004AD822 /* LaunchScreen.storyboard in Resources */,
 				537C6C091ECEC024004AD822 /* valenciaGradientMap.png in Resources */,
 				537C6BF91ECEC024004AD822 /* kelvinMap.png in Resources */,
 				537C6BE81ECEC024004AD822 /* brannanBlowout.png in Resources */,
@@ -1107,14 +1103,6 @@
 				53640B081EE7DD530098EF8E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		537C6AB41ECEBB59004AD822 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				537C6AB51ECEBB59004AD822 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
