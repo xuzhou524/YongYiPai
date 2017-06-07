@@ -14,8 +14,6 @@
 		533D97541ECEC58500DDC785 /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D974F1ECEC58500DDC785 /* IndicatorView.m */; };
 		537C6AA81ECEBB59004AD822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AA71ECEBB59004AD822 /* main.m */; };
 		537C6AAB1ECEBB59004AD822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AAA1ECEBB59004AD822 /* AppDelegate.m */; };
-		537C6AAE1ECEBB59004AD822 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AAD1ECEBB59004AD822 /* ViewController.m */; };
-		537C6AB11ECEBB59004AD822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537C6AAF1ECEBB59004AD822 /* Main.storyboard */; };
 		537C6AB31ECEBB59004AD822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537C6AB21ECEBB59004AD822 /* Assets.xcassets */; };
 		537C6AB61ECEBB59004AD822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537C6AB41ECEBB59004AD822 /* LaunchScreen.storyboard */; };
 		537C6B5B1ECEBF9F004AD822 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C6AC61ECEBF9F004AD822 /* EXTADT.m */; };
@@ -165,9 +163,6 @@
 		537C6AA71ECEBB59004AD822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		537C6AA91ECEBB59004AD822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		537C6AAA1ECEBB59004AD822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		537C6AAC1ECEBB59004AD822 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		537C6AAD1ECEBB59004AD822 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		537C6AB01ECEBB59004AD822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		537C6AB21ECEBB59004AD822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537C6AB51ECEBB59004AD822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		537C6AB71ECEBB59004AD822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -369,8 +364,8 @@
 		537C6BE11ECEC024004AD822 /* vignetteMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vignetteMap.png; sourceTree = "<group>"; };
 		537C6BE21ECEC024004AD822 /* waldenMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waldenMap.png; sourceTree = "<group>"; };
 		537C6BE31ECEC024004AD822 /* xproMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xproMap.png; sourceTree = "<group>"; };
-		537C6C101ECEC045004AD822 /* Osho.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Osho.bundle; sourceTree = "<group>"; };
-		537C6C121ECEC04E004AD822 /* FilterThum.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FilterThum.bundle; sourceTree = "<group>"; };
+		537C6C101ECEC045004AD822 /* Osho.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Osho.bundle; path = ../Osho.bundle; sourceTree = "<group>"; };
+		537C6C121ECEC04E004AD822 /* FilterThum.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FilterThum.bundle; path = ../FilterThum.bundle; sourceTree = "<group>"; };
 		537C6C141ECEC06A004AD822 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		AF8A74EB64F06B5010D56FD3 /* Pods-YongYiPai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YongYiPai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YongYiPai/Pods-YongYiPai.debug.xcconfig"; sourceTree = "<group>"; };
 		C1FB850E018561FCA4558114 /* Pods-YongYiPai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YongYiPai.release.xcconfig"; path = "Pods/Target Support Files/Pods-YongYiPai/Pods-YongYiPai.release.xcconfig"; sourceTree = "<group>"; };
@@ -395,6 +390,15 @@
 				C1FB850E018561FCA4558114 /* Pods-YongYiPai.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		532E5E471EE7D5F0009F5AAB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				537C6C121ECEC04E004AD822 /* FilterThum.bundle */,
+				537C6C101ECEC045004AD822 /* Osho.bundle */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 		533D97411ECEC58500DDC785 /* Model */ = {
@@ -467,19 +471,16 @@
 		537C6AA51ECEBB59004AD822 /* YongYiPai */ = {
 			isa = PBXGroup;
 			children = (
-				533D97411ECEC58500DDC785 /* Model */,
-				537C6C121ECEC04E004AD822 /* FilterThum.bundle */,
-				537C6C101ECEC045004AD822 /* Osho.bundle */,
-				537C6B9C1ECEBFA4004AD822 /* UI */,
-				537C6AC21ECEBF9F004AD822 /* Util */,
 				537C6AA91ECEBB59004AD822 /* AppDelegate.h */,
 				537C6AAA1ECEBB59004AD822 /* AppDelegate.m */,
-				537C6AAC1ECEBB59004AD822 /* ViewController.h */,
-				537C6AAD1ECEBB59004AD822 /* ViewController.m */,
-				537C6AAF1ECEBB59004AD822 /* Main.storyboard */,
+				533D97571ECEC71700DDC785 /* YongYiPai-Prefix.pch */,
 				537C6AB21ECEBB59004AD822 /* Assets.xcassets */,
 				537C6AB41ECEBB59004AD822 /* LaunchScreen.storyboard */,
 				537C6AB71ECEBB59004AD822 /* Info.plist */,
+				532E5E471EE7D5F0009F5AAB /* Library */,
+				533D97411ECEC58500DDC785 /* Model */,
+				537C6B9C1ECEBFA4004AD822 /* UI */,
+				537C6AC21ECEBF9F004AD822 /* Util */,
 				537C6AA61ECEBB59004AD822 /* Supporting Files */,
 			);
 			path = YongYiPai;
@@ -490,7 +491,6 @@
 			children = (
 				537C6BB91ECEC024004AD822 /* FILTERSIMAGE */,
 				537C6AA71ECEBB59004AD822 /* main.m */,
-				533D97571ECEC71700DDC785 /* YongYiPai-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -945,7 +945,6 @@
 				537C6BE61ECEC024004AD822 /* amaroMap.png in Resources */,
 				537C6C081ECEC024004AD822 /* toasterSoftLight.png in Resources */,
 				537C6BE41ECEC024004AD822 /* 1977blowout.png in Resources */,
-				537C6AB11ECEBB59004AD822 /* Main.storyboard in Resources */,
 				537C6BF11ECEC024004AD822 /* edgeBurn.png in Resources */,
 				537C6C031ECEC024004AD822 /* sutroMetal.png in Resources */,
 				537C6C011ECEC024004AD822 /* sutroCurves.png in Resources */,
@@ -1021,7 +1020,6 @@
 				537C6B711ECEBF9F004AD822 /* HudsonFilter.m in Sources */,
 				537C6BB01ECEBFA4004AD822 /* CameraViewController.m in Sources */,
 				537C6B951ECEBF9F004AD822 /* UIImage+Additions.m in Sources */,
-				537C6AAE1ECEBB59004AD822 /* ViewController.m in Sources */,
 				537C6B811ECEBF9F004AD822 /* RecoderManager.m in Sources */,
 				537C6B831ECEBF9F004AD822 /* RecordSessionManager.m in Sources */,
 				537C6B971ECEBF9F004AD822 /* UIImage+Resize.m in Sources */,
@@ -1099,14 +1097,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		537C6AAF1ECEBB59004AD822 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				537C6AB01ECEBB59004AD822 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		537C6AB41ECEBB59004AD822 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
